@@ -1,0 +1,113 @@
+
+body{
+    font-family: sans-serif;
+}
+#main-container{
+    background-color: white;
+    margin: auto;
+    width: 500px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px black;
+    border: 2px solid black;
+    overflow: hidden;
+    background: linear-gradient(blueviolet,darkviolet);
+    background-size: contain;
+}
+#container{
+    border-radius: 15px;
+    padding: 20px;
+    margin-left: 5%;
+    margin-top: 15px;
+    width: 81%;
+    color: white;
+}
+h1{
+    font-size: 1.5em;
+    text-align: center;
+    color: orangered; 
+    font-size: 2.5em;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.776);
+}
+#input-container{
+    background-color: white;
+    height: 45px;
+    width: 95%;
+    border-radius: 25px;
+    margin-left: 3%;
+    box-sizing: border-box;
+    border: 3px solid rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 1px 1px 5px black;
+}
+#to_do{
+    width: 77%;
+    height: 35px;
+    border: none;
+    margin-right: 2%;
+    padding-left: 10px;
+    font-size: large;
+    font-weight: bold;
+    box-sizing: border-box;
+    background: transparent;
+}
+#to_do:focus{ 
+    outline: none;
+}
+#to_do::placeholder{
+    color: rgba(255, 68, 0, 0.795);
+}
+#addButton{
+    width: 20%;
+    height: 35px;
+    border-radius: 25px;
+    font-size: medium;
+    background-color: orangered;
+    border: none;
+    color: white;
+    cursor: pointer;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 4px black;
+
+}
+#addButton:active{
+    box-shadow: none;
+    background-color: rgb(219, 58, 0);
+}
+label{
+    font-size: 1.5em;
+    cursor: pointer;
+    margin-left: 10px;
+    text-shadow: 4px 4px 3px rgb(0, 0, 0);
+}
+input[type='checkbox']{
+    margin-top: 20px;
+    margin-left: 5%;
+    height: 1.5em;
+    width: 1.5em;   
+    cursor: pointer;
+    box-shadow: inset 2px 2px 2px black;
+}
+input[type='checkbox']:checked{
+    box-shadow: 2px 2px 2px black;
+}
+button{
+    background-color: rgb(237, 0, 0);
+    border: none;
+    margin-top: 15px;
+    border-radius: 3px;
+    color: white;
+    height: 30px;
+    width: 30px;
+    padding: 3px;
+    float: right;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px black;
+}
+button:active{
+    background-color: rgb(168, 1, 1);
+    box-shadow: inset 2px 2px 2px black;
+}
